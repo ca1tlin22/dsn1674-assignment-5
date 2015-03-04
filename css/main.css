@@ -1,0 +1,32 @@
+html{
+  background-color:#d98156;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin:0;
+  text-align: center;
+}
+
+header{
+  padding: 1em;
+}
+
+.nav{
+  margin: 0em;
+  padding: 0em;
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color:
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color:#d98156;
+  border-color:#a33f3a;
+}
