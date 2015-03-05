@@ -49,7 +49,12 @@ img {
   float: left;
 }
 
+.left-grain {
+  float: left;
+  scale: 30%;
+}
+
 .right-grain {
-  float: right;
+  float: left;
   scale: 30%;
 }
