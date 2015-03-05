@@ -43,6 +43,7 @@ nav a{
   border: 1px solid #a33f3a;
   border-radius: 1px;
   width: 5em;
+  text-align: center;
 }
 
 img {
@@ -51,10 +52,10 @@ img {
 
 .left-grain {
   float: left;
-  scale: 30%;
+  width: 5%;
 }
 
 .right-grain {
-  float: left;
-  scale: 30%;
+  float: right;
+  width: 5%;
 }
