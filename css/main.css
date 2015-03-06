@@ -1,8 +1,12 @@
 html{
-
+  box-sizing: border-box;
   padding: 0em;
   margin: 0em;
   font-family: 'Merriweather', serif;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
 }
 
 body{
@@ -30,8 +34,6 @@ h2{
 
 nav{
   background-color:#cd5b34;
-  margin: 0em;
-  padding: 0em;
   list-style: none;
   text-align: center;
   width: 100%;
@@ -39,8 +41,9 @@ nav{
 
 nav ul{
   display: block;
-  padding: 1em;
+  padding: .60em;
   margin: 0em;
+  width: 100%;
 }
 
 nav li{
@@ -50,13 +53,19 @@ nav li{
 }
 
 nav a{
+  margin: 0em;
   padding: 0.5em 0.75em;
   background-color:#cd5b34;
   text-decoration: none;
   border: 1px solid #a33f3a;
   border-radius: 1px;
-  width: 5px;
   text-align: center;
+  color: #fff;
+  width: 5em;
+}
+
+nav a:hover{
+  background-color: #a33f3a;
 }
 
 .left-grain {
@@ -80,8 +89,8 @@ nav a{
 .cereals{
   width: 40%;
   float: right;
+  clear: right;
   margin-bottom: 1em;
-  margin-left: 1em;
   border: 1px solid #ccc;
 }
 
@@ -90,13 +99,13 @@ nav a{
   float: right;
   clear: right;
   border: 1px solid #ccc;
-  margin-left: 1em;
 }
 
 .cereal-block{
   padding: 0em;
   margin: 0em;
   background-color:#d98156;
+  clear: both;
 }
 
 .corn{
@@ -104,28 +113,92 @@ nav a{
 }
 
 .rice{
+  background-color:#d98156;
   width:50%;
   float: left;
+  color: #fff;
+  font-style: italic;
+  font-size: .5rem;
+  text-align: center;
 }
 
 .oats{
+  background-color:#d98156;
   width:50%;
   float: right;
+  color: #fff;
+  float: right;
+  font-style: italic;
+  font-size: .5rem;
+  text-align: center;
 }
 
 .corn-cap{
   text-align: center;
+  font-style: italic;
   color: #fff;
+  font-size: .5rem;
 }
 
-.rice-cap{
-  float: right;
-  clear: right;
-  color: #fff;
+h3{
+  text-align: center;
+  clear: both;
+
 }
 
-.oat-cap{
+.peanuts{
+  width: 30%;
+  border: 1px solid #ccc;
   float: left;
   clear: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.beans{
+  width: 30%;
+  border: 1px solid #ccc;
+  float: left;
+  clear: left;
+  margin-right: 1em;
+}
+
+.lentils{
+  width: 30%;
+  border: 1px solid #ccc;
+  float: left;
+  clear: left;
+  margin-right: 1em;
+}
+
+.beans-p{
+  clear: right;
+}
+
+.lentils-p{
+  clear: right;
+}
+
+.peanuts-p{
+  clear: right;
+}
+
+footer{
+  background-color: #cd5b34;
+  padding: .5em;
+  text-align: center;
   color: #fff;
+  font-size: .5rem;
+}
+
+.peanut-block{
+  clear: both;
+}
+
+.bean-block{
+  clear: both;
+}
+
+.lentil-block{
+  clear: both;
 }
