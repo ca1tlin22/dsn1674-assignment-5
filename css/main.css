@@ -16,6 +16,7 @@ body{
 
 header{
   padding: 0em;
+  margin: 0em;
 }
 
 h1{
@@ -40,16 +41,19 @@ nav{
 }
 
 nav ul{
-  display: block;
-  padding: .60em;
+  display: inline-block;
+  padding: 0em;
   margin: 0em;
   width: 100%;
 }
 
 nav li{
   margin: 0em;
-  padding: 0em;
+  padding: .5em 0em .5em 0em;
   display: inline-block;
+  border: 1px solid #a33f3a;
+  border-radius: 1px;
+  overflow: hidden;
 }
 
 nav a{
@@ -57,8 +61,6 @@ nav a{
   padding: 0.5em 0.75em;
   background-color:#cd5b34;
   text-decoration: none;
-  border: 1px solid #a33f3a;
-  border-radius: 1px;
   text-align: center;
   color: #fff;
   width: 5em;
@@ -189,6 +191,7 @@ footer{
   text-align: center;
   color: #fff;
   font-size: .5rem;
+  clear: both;
 }
 
 .peanut-block{
@@ -201,4 +204,18 @@ footer{
 
 .lentil-block{
   clear: both;
+}
+
+.intro{
+  float: left;
+  width: calc(100% / 3)
+}
+
+.cereals-a{
+  width: calc(100% / 3)
+}
+
+.legumes-a{
+  float: right;
+  width: calc(100% / 3)
 }
